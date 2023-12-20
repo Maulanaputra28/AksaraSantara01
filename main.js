@@ -62,6 +62,7 @@ const handleScroll = () => {
   }
 
   if(mediaQueryLaptop.matches){
+    elements.imgDaerah.style.height = isPast2500 ? "100%" : "";  
     elements.section1.style.width = isPast3500 ? "100%" : "";
     Object.assign(elements.titleDaerah.style, {
       position: isPast3500 ? "absolute" : "",
