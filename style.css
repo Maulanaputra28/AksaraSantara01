@@ -723,7 +723,7 @@ footer.footer {
 
   .section5 > .title{
     height: 829px;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .section5{
@@ -767,6 +767,7 @@ footer.footer {
 
   .titleTarian{
     position: relative;
+    font-size: 30px;
     left: -15px;
     top: 10px;
   }
@@ -797,12 +798,17 @@ footer.footer {
     position: relative;
     left: -35px;
     top: 10px;
-    font-size: 60px;
+    font-size: 30px;
   }
+
+  /* .title{
+    font-size: 30px;
+  } */
 
   #desc{
     /* display: none; */
-    width: 300px;
+    width: auto;
+    margin: 5%;
     font-size: 15px;
   } 
 
