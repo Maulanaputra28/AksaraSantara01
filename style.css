@@ -718,6 +718,7 @@ footer.footer {
 
   .section1 > img{
     /* width: 35%; */
+    /* height: 26vh; */
     transition: all 1s ease;
   }
 
@@ -737,7 +738,7 @@ footer.footer {
 
   .parent-text-daerah > .text-daerah {
     max-width: 70%;
-    height: 175px;
+    height: auto;
   }
 
   .detailDaerah{
