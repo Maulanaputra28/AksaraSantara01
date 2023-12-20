@@ -732,7 +732,7 @@ footer.footer {
   }
 
   .parent-text-daerah{
-    height: 5em;
+    height: auto;
     /* align-items: flex-st; */
   }
 
