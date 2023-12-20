@@ -46,7 +46,7 @@ const handleScroll = () => {
     elements.parentTextDaerah.style.height = isPast2500 ? "15em" : "";
     if(isPast3500){
     elements.imgDaerah.style.height = isPast3500 ? "100vh" : "";  
-    elements.titleDaerah.style.transform = isPast3500 ? "translateY(550px)" : "";
+    elements.titleDaerah.style.transform = isPast3500 ? "translateY(650px)" : "";
       elements.descPakaian.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][17]}` : "";
       elements.descTarian.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][18]}` : "";
       elements.descMakanan.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][19]}` : "";
