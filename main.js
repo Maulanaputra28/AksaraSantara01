@@ -39,12 +39,14 @@ const handleScroll = () => {
     elements.titleDaerah.style.transform = isPast2500 ? "translateY(350px)" : "";
     elements.titleDaerah.style.fontSize= isPast2500 ? "2em" : "";
     elements.wrapper.style.top = isPast3500 ? "-60px" : "";
-    elements.imgDaerah.style.width = isPast3500 ? "315%" : "";  
+    elements.imgDaerah.style.width = isPast3500 ? "200%" : "";  
+    elements.imgDaerah.style.height = isPast2500 ? "26vh" : "";  
     elements.transition.style.display = isPast3500 ? "block" : "";
     elements.wraperFrame.style.width = isPast3500 ? "100%" : "";
     elements.parentTextDaerah.style.height = isPast2500 ? "15em" : "";
     if(isPast3500){
-      elements.titleDaerah.style.transform = isPast3500 ? "translateY(550px)" : "";
+    elements.imgDaerah.style.height = isPast3500 ? "100vh" : "";  
+    elements.titleDaerah.style.transform = isPast3500 ? "translateY(550px)" : "";
       elements.descPakaian.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][17]}` : "";
       elements.descTarian.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][18]}` : "";
       elements.descMakanan.innerHTML = isPast3500 ? `${dataDaerah[currentIndex][19]}` : "";
