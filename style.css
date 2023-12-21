@@ -713,6 +713,7 @@ footer.footer {
 
   .transitionDaerah{
     top: 0px;
+    display: none;
   }
 
   .space{
