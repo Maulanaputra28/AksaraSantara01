@@ -40,7 +40,7 @@ const handleScroll = () => {
     elements.titleDaerah.style.fontSize= isPast2500 ? "2em" : "";
     elements.wrapper.style.top = isPast3500 ? "-60px" : "";
     elements.imgDaerah.style.width = isPast3500 ? "200%" : "";  
-    elements.imgDaerah.style.height = isPast2500 ? "26vh" : "";  
+    elements.imgDaerah.style.height = isPast2500 ? "60vh" : "";  
     elements.transition.style.display = isPast3500 ? "block" : "";
     elements.wraperFrame.style.width = isPast3500 ? "100%" : "";
     elements.parentTextDaerah.style.height = isPast2500 ? "15em" : "";
