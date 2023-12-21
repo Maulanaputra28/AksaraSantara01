@@ -744,7 +744,7 @@ footer.footer {
   }
 
   .section5 > .title{
-    height: 829px;
+    height: 130vh;
     font-size: 40px;
   }
 
@@ -823,9 +823,9 @@ footer.footer {
     font-size: 30px;
   }
 
-  .title{
+/*   .title{
     height: 730px;
-  }
+  } */
 
   #desc{
     /* display: none; */
