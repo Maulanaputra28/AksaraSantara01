@@ -739,6 +739,10 @@ footer.footer {
     transition: all 1s ease;
   }
 
+  .section2, .section3, .section4{
+    height: auto;
+  }
+
   .section5 > .title{
     height: 829px;
     font-size: 40px;
