@@ -823,9 +823,9 @@ footer.footer {
     font-size: 30px;
   }
 
-  /* .title{
-    font-size: 30px;
-  } */
+  .title{
+    height: 730px;
+  }
 
   #desc{
     /* display: none; */
