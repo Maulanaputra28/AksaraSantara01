@@ -686,7 +686,11 @@ footer.footer {
   }
 
   .pura{
-    top: -10vh;
+    top: -25vh;
+  }
+
+  .blender{
+    height: 40vh;
   }
 
   .title-text-daerah{
@@ -832,7 +836,7 @@ footer.footer {
   }
 
   footer.footer {
-height: 150vh;
+height: 213vh;
 }
 
 .wrapperMainFooter{
@@ -842,7 +846,7 @@ height: 150vh;
 .aksaraSantara{
   height: auto;
   padding-inline: 2em;
-  bottom: 100px;
+  bottom: 30px;
 }
 
 .aksaraSantara > img{
@@ -871,6 +875,6 @@ margin-bottom: 80px;
 }
 
 .bottom-footer{
-  bottom: 100px;
+  bottom: 200px;
 }
 }
