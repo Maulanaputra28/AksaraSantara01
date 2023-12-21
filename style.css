@@ -223,7 +223,7 @@ width: 100%;
 
 .transition1{
   position: relative;
-  top: 0px;
+  top: 10px;
   z-index: 10;
   background: rgb(0,0,0);
 background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0.7008928571428572) 51%, rgba(24,24,24,0.5020133053221288) 66%, rgba(181,181,181,0) 85%);
